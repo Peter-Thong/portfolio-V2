@@ -19,16 +19,26 @@
                     <div class="brand header-brand">
                         <h1 class="m-0">
 							<a href="#">
-								<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
+								<img class="header-logo-image" src="dist/images/pn.svg" alt="Logo">
                             </a>
                         </h1>
                     </div>
+
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li><a href="#hero" class="nav-list--item">Home</a></li>
+                            <li><a href="#work" class="nav-list--item">Work</a></li>
+                            <li><a href="#about" class="nav-list--item">About</a></li>
+                            <li><a href="#contact" class="nav-list--item">Contact</a></li>
+                            <li><a class="button button-resume" href="#">Resume</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </header>
 
         <main>
-            <section class="hero">
+            <section class="hero" id="hero">
                 <div class="container">
                     <div class="hero-inner">
 						<div class="hero-copy">
@@ -55,7 +65,7 @@
                 </div>
             </section>
 
-            <section class="features section">
+            <section class="features section" id="work">
                 <div class="container">
                     
 					<div class="features-inner section-inner has-bottom-divider">
@@ -81,7 +91,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="pricing-table-cta mb-8">
+                                        <div class="pricing-table-cta mb-8" style="z-index: 50;">
                                             <a target="_blank" class="button button-primary button-shadow" style="width: 120px; margin: 0 6px;" href="https://furniture-projectwebsite.herokuapp.com/">Demo</a>
                                             <a target="_blank" class="button button-shadow; margin: 0 6px" style="width: 120px;" href="https://github.com/Peter-Thong/furniture_project">Github</a>
                                         </div>
@@ -105,7 +115,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="pricing-table-cta mb-8">
+                                        <div class="pricing-table-cta mb-8" style="z-index: 50;">
                                             <a target="_blank" class="button button-primary button-shadow" style="width: 120px; margin: 0 6px;" href="https://pensive-pare-016307.netlify.app/">Demo</a>
                                             <a target="_blank" class="button button-shadow; margin: 0 6px" style="width: 120px;" href="https://github.com/Peter-Thong/movie-db">Github</a>
                                         </div>
@@ -129,7 +139,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="pricing-table-cta mb-8">
+                                        <div class="pricing-table-cta mb-8" style="z-index: 50;">
                                             <a target="_blank" class="button button-primary button-shadow" style="width: 120px; margin: 0 6px;" href="https://react-my-burger-63782.web.app/">Demo</a>
                                             <a target="_blank" class="button button-shadow; margin: 0 6px" style="width: 120px;" href="https://github.com/Peter-Thong/burger_app">Github</a>
                                         </div>
@@ -153,7 +163,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="pricing-table-cta mb-8">
+                                        <div class="pricing-table-cta mb-8" style="z-index: 50;">
                                             <a target="_blank" class="button button-primary button-shadow" style="width: 120px; margin: 0 6px;" href="https://grato-website.herokuapp.com/">Demo</a>
                                             <a target="_blank" class="button button-shadow; margin: 0 6px" style="width: 120px;" href="https://github.com/Peter-Thong/grato">Github</a>
                                         </div>
@@ -166,38 +176,55 @@
                 </div>
             </section>
 
-            <section class="pricing section">
+            <section class="pricing section" id="about">
                 <div class="container-sm">
                     <div class="pricing-inner section-inner">
                         <div class="pricing-header text-center">
                             <h2 class="section-title mt-0">About Me</h2>
-                            <p class="section-paragraph mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad quis nostrud.</p>
+                           
                         </div>
-						<div class="pricing-tables-wrap">
-                            <div class="pricing-table">
-                                <div class="pricing-table-inner is-revealing">
-                                    <div class="pricing-table-main">
-                                        <div class="pricing-table-header pb-24">
-                                            <div class="pricing-table-price"><span class="pricing-table-price-currency h2">$</span><span class="pricing-table-price-amount h1">49</span><span class="text-xs">/month</span></div>
+                        <div class="hero-inner">
+                            <div class="hero-copy">
+                                <p class="text-sm mb-0">Hello! My name is Peter.<br>I'm a web developer with a focus on the MERN stack, but still exploring other technologies and frameworks that catch my
+                                interest! if you're looking for a developer to add to your team, I'd love to hear from you!
+                                <br> <br>
+                                Here are a few technologies I've been working with recently:
+                                <div class="container--about">
+
+                                    <ul class="pricing-table-features list-reset text-xs pricing-table-features--about">
+                                        <li>
+                                            <p class="text-sm mb-0">Javascript(ES6+)</p>
+                                        </li>
+                                        <li>
+                                            <p class="text-sm mb-0">React</p>
+                                        </li>
+                                        <li>
+                                            <p class="text-sm mb-0">Redux</p>
+                                        </li>
+                                    </ul>
+                                    <ul class="pricing-table-features list-reset text-xs pricing-table-features--about">
+                                        <li>
+                                            <p class="text-sm mb-0">Express</p>
+                                        </li>
+                                        <li>
+                                            <p class="text-sm mb-0">Node.js</p>
+                                        </li>
+                                        <li>
+                                            <p class="text-sm mb-0">Bootstrap</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </p>
+
+                                
+
+                            </div>
+                            <div class="hero-figure anime-element">
+                                <div class="pricing-table pricing-table--about">
+                                    <div class="pricing-table-inner is-revealing pricing-table-inner--about">
+                                        <div class="pricing-table-main">
+                                                <img src="dist/images/my-photo.jpg" alt="my photo">
                                         </div>
-										<div class="pricing-table-features-title text-xs pt-24 pb-24">What you will get</div>
-                                        <ul class="pricing-table-features list-reset text-xs">
-                                            <li>
-                                                <span>Lorem ipsum dolor sit nisi</span>
-                                            </li>
-                                            <li>
-                                                <span>Lorem ipsum dolor sit nisi</span>
-                                            </li>
-                                            <li>
-                                                <span>Lorem ipsum dolor sit nisi</span>
-                                            </li>
-											<li>
-												<span>Lorem ipsum dolor sit nisi</span>
-											</li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-table-cta mb-8">
-                                        <a class="button button-primary button-shadow button-block" href="#">Pre order now</a>
                                     </div>
                                 </div>
                             </div>
@@ -206,12 +233,17 @@
                 </div>
             </section>
 
-			<section class="cta section">
+			<section class="cta section" id="contact">
 				<div class="container">
 					<div class="cta-inner section-inner">
-						<h3 class="section-title mt-0">Still not convinced on buying?</h3>
+                        <div>
+
+                            <h3 class="section-title mt-0">Ping me!</h3>
+                            <p class="text-sm mb-0">Want to say "Hey!"? Got something you'd like to ask?<br> New project or opportunity? Want to hire me? Ping me!</p>
+                        </div>
+                        
 						<div class="cta-cta">
-							<a class="button button-primary button-wide-mobile" href="#">Get in touch</a>
+							<a class="button button-primary button-wide-mobile" href="#">Say Hello</a>
 						</div>
 					</div>
 				</div>
@@ -220,53 +252,38 @@
 
         <footer class="site-footer">
             <div class="container">
-                <div class="site-footer-inner">
-                    <div class="brand footer-brand">
-						<a href="#">
-							<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
-						</a>
-                    </div>
-                    <ul class="footer-links list-reset">
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#">About us</a>
-                        </li>
-                        <li>
-                            <a href="#">FAQ's</a>
-                        </li>
-                        <li>
-                            <a href="#">Support</a>
-                        </li>
-                    </ul>
+                <div class="site-footer-inner">     
                     <ul class="footer-social-links list-reset">
                         <li>
                             <a href="#">
                                 <span class="screen-reader-text">Facebook</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#0270D7"/>
                                 </svg>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Twitter</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#0270D7"/>
-                                </svg>
+                            <a href="https://www.linkedin.com/in/peter-nguyen-10b92a17b/">
+                                <span class="screen-reader-text">Linkin</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" fill="#0270D7"/>
+                            </svg>
                             </a>
+                                
                         </li>
                         <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Google</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#0270D7"/>
-                                </svg>
+                            <a href="https://github.com/Peter-Thong">
+                            <span class="screen-reader-text">Github</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" fill="#0270D7"/>
+                            </svg>
+                    
                             </a>
                         </li>
                     </ul>
-                    <div class="footer-copyright">&copy; 2019 Solid, all rights reserved</div>
+                   
                 </div>
             </div>
         </footer>
